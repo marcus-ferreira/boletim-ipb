@@ -1,0 +1,29 @@
+@import 'base';
+
+.pastoral {
+	display: flex;
+	flex-direction: column;
+
+	>* {
+		margin: 10px;
+		padding: 5px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	button {
+		border: none;
+		background-color: green;
+		color: white;
+		padding: 10px;
+		border-radius: 20px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+}
